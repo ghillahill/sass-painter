@@ -1,5 +1,5 @@
-$color: red;
-
-h1 {
-    color: $color;
-}
+@import 'partials/_variables.scss';
+@import 'partials/_mixins.scss';
+@import 'partials/_general.scss';
+@import 'partials/_header.scss';
+@import 'partials/_footer.scss';
