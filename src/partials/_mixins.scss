@@ -1,0 +1,12 @@
+@mixin clearfix {
+    clear: both;
+    display: inline-table;
+    content: '';
+}
+
+@mixin flex($direction, $justify_content, $align-items) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify_content;
+    align-items: $align-items;
+}

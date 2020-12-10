@@ -1,0 +1,45 @@
+header {
+    background-color: $header_background;
+}
+
+div.nav-container {
+    @include flex(row, center, center);
+}
+
+nav.nav-up {
+    text-align: right;
+    color: $font-color-secondary;
+
+    ul {
+        display: inline-block;
+        list-style-type: none;
+    }
+
+    li {
+        display: inline-block;
+        padding: $nav_li_spacing;
+    }
+}
+
+nav.nav-down {
+    text-align: center;
+    color: $font-color-primary;
+
+    ul {
+        display: inline-block;
+        list-style-type: none;
+    }
+
+    li {
+        display: inline-block;
+        padding: $nav_li_spacing;
+    }
+
+    div.logo {
+        display: inline-block;
+
+        img {
+            width: 80%;
+        }
+    }
+}
