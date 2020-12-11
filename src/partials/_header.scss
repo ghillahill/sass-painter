@@ -7,6 +7,7 @@ div.nav-container {
 }
 
 nav.nav-up {
+    padding-top: $general_spacing;
     text-align: right;
     color: $font-color-secondary;
 
@@ -18,6 +19,11 @@ nav.nav-up {
     li {
         display: inline-block;
         padding: $li_spacing;
+
+        i {
+            color: $icon_color;
+            padding-right: $li_spacing;
+        }
     }
 }
 

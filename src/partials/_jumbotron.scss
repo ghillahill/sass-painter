@@ -28,7 +28,7 @@ div.jumbo-info {
     .cta {
         display: inline-flex;
         align-items: center;
-        padding: $li_spacing * 2;
+        padding: $li_spacing * 3;
         background-color: $cta_background;
 
         &:hover {
@@ -46,7 +46,6 @@ div.jumbo-info {
             }
         }
 
-        //Temporaneo in attesa di Icona
         .cta-icon {
             padding-left: 10px;
             padding-bottom: 5px;

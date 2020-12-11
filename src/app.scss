@@ -4,3 +4,9 @@
 @import 'partials/_header.scss';
 @import 'partials/_jumbotron.scss';
 @import 'partials/_footer.scss';
+
+$fa-font-path: 'fontawesome';
+@import 'node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+@import 'node_modules/@fortawesome/fontawesome-free/scss/brands';
+@import 'node_modules/@fortawesome/fontawesome-free/scss/regular';
+@import 'node_modules/@fortawesome/fontawesome-free/scss/solid';
