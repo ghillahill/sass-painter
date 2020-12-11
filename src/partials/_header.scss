@@ -17,7 +17,7 @@ nav.nav-up {
 
     li {
         display: inline-block;
-        padding: $nav_li_spacing;
+        padding: $li_spacing;
     }
 }
 
@@ -30,7 +30,7 @@ nav.nav-down {
 
     li {
         display: inline-block;
-        padding: $nav_li_spacing;
+        padding: $li_spacing;
 
         a {
             color: $font-nav-jumbo-color;

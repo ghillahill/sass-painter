@@ -22,7 +22,7 @@ ul {
 
 div.container {
   height: auto;
-  width: 1280px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -55,7 +55,7 @@ nav.nav-up ul {
 
 nav.nav-up li {
   display: inline-block;
-  padding: 10px;
+  padding: 5px;
 }
 
 nav.nav-down {
@@ -68,7 +68,7 @@ nav.nav-down ul {
 
 nav.nav-down li {
   display: inline-block;
-  padding: 10px;
+  padding: 5px;
 }
 
 nav.nav-down li a {
@@ -89,11 +89,53 @@ section.jumbotron {
   -o-object-fit: contain;
      object-fit: contain;
   background-repeat: no-repeat;
+  background-position: top;
 }
 
 div.jumbo-info {
   color: #fff;
   margin-left: 33%;
+}
+
+div.jumbo-info h1 {
+  padding: 15px 0;
+}
+
+div.jumbo-info .menu {
+  padding: 20px 0;
+}
+
+div.jumbo-info .menu li {
+  padding: 5px 0;
+}
+
+div.jumbo-info .cta {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #666;
+}
+
+div.jumbo-info .cta:hover {
+  background-color: #333;
+  text-decoration: none;
+}
+
+div.jumbo-info .cta .cta-text {
+  padding-right: 10px;
+  border-right: 2px solid #fff;
+  color: #fff;
+}
+
+div.jumbo-info .cta .cta-text p:first-child {
+  text-transform: uppercase;
+}
+
+div.jumbo-info .cta .cta-icon {
+  padding-left: 10px;
+  padding-bottom: 5px;
+  font-size: 25px;
+  color: #fff;
 }
 
 footer div.footer-up {
@@ -117,7 +159,7 @@ footer div.footer-up .footer-menus .menu p {
 }
 
 footer div.footer-up .footer-menus .menu ul li {
-  padding: 10px 0;
+  padding: 5px 0;
 }
 
 footer div.footer-up .footer-menus .menu ul li a {

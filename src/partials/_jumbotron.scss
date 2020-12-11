@@ -3,9 +3,52 @@ section.jumbotron {
     background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg');
     object-fit: contain;
     background-repeat: no-repeat;
+    background-position: top;
 }
 
 div.jumbo-info {
     color: $font-nav-jumbo-color;
     margin-left: 33%;
+
+    h1 {
+        padding: $titles-padding;
+    }
+
+    .menu {
+        padding: $general_spacing;
+
+        li {
+            padding: $menu_li_spacing;
+        }
+    }
+
+    .cta {
+        display: inline-flex;
+        align-items: center;
+        padding: $li_spacing * 2;
+        background-color: $cta_background;
+
+        &:hover {
+            background-color: $cta_hover_background;
+            text-decoration: none;
+        }
+
+        .cta-text {
+            padding-right: 10px;
+            border-right: 2px solid #fff;
+            color: $font-nav-jumbo-color;
+
+            p:first-child{
+                text-transform: uppercase;
+            }
+        }
+
+        //Temporaneo in attesa di Icona
+        .cta-icon {
+            padding-left: 10px;
+            padding-bottom: 5px;
+            font-size: 25px;
+            color: $font-nav-jumbo-color;
+        }
+    }
 }
