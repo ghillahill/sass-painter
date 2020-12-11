@@ -21,7 +21,7 @@ nav.nav-up {
         padding: $li_spacing;
 
         i {
-            color: $icon_color;
+            color: $icon_secondary_color;
             padding-right: $li_spacing;
         }
     }
@@ -37,10 +37,16 @@ nav.nav-down {
 
     li {
         display: inline-block;
-        padding: $li_spacing;
 
         a {
+            padding: $li_spacing * 2 ;
             color: $font-nav-jumbo-color;
+
+            &:hover {
+                color: $font-color-primary;
+                background-color: #fff;
+                text-decoration: none;
+            }
         }
     }
 

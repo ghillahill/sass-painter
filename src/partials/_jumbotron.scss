@@ -22,6 +22,12 @@ div.jumbo-info {
 
         li {
             padding: $menu_li_spacing;
+
+            i {
+                font-size: 14px;
+                color: $icon_primary_color;
+                padding-right: $li_spacing;
+            }
         }
     }
 

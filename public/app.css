@@ -78,10 +78,15 @@ nav.nav-down ul {
 }
 nav.nav-down li {
   display: inline-block;
-  padding: 5px;
 }
 nav.nav-down li a {
+  padding: 10px;
   color: #fff;
+}
+nav.nav-down li a:hover {
+  color: #4d4d4d;
+  background-color: #fff;
+  text-decoration: none;
 }
 nav.nav-down img {
   display: inline-block;
@@ -115,6 +120,11 @@ div.jumbo-info .menu {
 }
 div.jumbo-info .menu li {
   padding: 5px 0;
+}
+div.jumbo-info .menu li i {
+  font-size: 14px;
+  color: grey;
+  padding-right: 5px;
 }
 div.jumbo-info .cta {
   display: inline-flex;
