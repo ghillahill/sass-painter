@@ -27,11 +27,7 @@ header {
 div.nav-container {
   display: flex;
   flex-direction: row;
-<<<<<<< HEAD
   justify-content: space-between;
-=======
-  justify-content: center;
->>>>>>> main
   align-items: center;
 }
 
@@ -71,7 +67,6 @@ nav.nav-down div.logo {
 
 nav.nav-down div.logo img {
   width: 80%;
-<<<<<<< HEAD
 }
 
 footer div.footer-up {
@@ -110,7 +105,5 @@ footer div.footer-up .footer-menus .menu ul li a {
 
 footer div.footer-up .footer-menus .menu ul li a:hover {
   text-decoration: underline;
-=======
->>>>>>> main
 }
 

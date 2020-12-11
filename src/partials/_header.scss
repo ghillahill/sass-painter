@@ -3,11 +3,7 @@ header {
 }
 
 div.nav-container {
-<<<<<<< HEAD
     @include flex(row, space-between, center);
-=======
-    @include flex(row, center, center);
->>>>>>> main
 }
 
 nav.nav-up {
@@ -21,21 +17,13 @@ nav.nav-up {
 
     li {
         display: inline-block;
-<<<<<<< HEAD
-        padding: $li_spacing;
-=======
         padding: $nav_li_spacing;
->>>>>>> main
     }
 }
 
 nav.nav-down {
     text-align: center;
-<<<<<<< HEAD
     color: $font-nav-color;
-=======
-    color: $font-color-primary;
->>>>>>> main
 
     ul {
         display: inline-block;
@@ -44,11 +32,7 @@ nav.nav-down {
 
     li {
         display: inline-block;
-<<<<<<< HEAD
-        padding: $li_spacing;
-=======
         padding: $nav_li_spacing;
->>>>>>> main
     }
 
     div.logo {
