@@ -27,7 +27,7 @@ header {
 div.nav-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -67,5 +67,43 @@ nav.nav-down div.logo {
 
 nav.nav-down div.logo img {
   width: 80%;
+}
+
+footer div.footer-up {
+  padding: 20px 0;
+  background-color: #ececec;
+}
+
+footer div.footer-up .footer-menus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: none;
+}
+
+footer div.footer-up .footer-menus .menu {
+  padding: 10px;
+}
+
+footer div.footer-up .footer-menus .menu p {
+  padding-bottom: 10px;
+}
+
+footer div.footer-up .footer-menus .menu ul {
+  list-style-type: none;
+}
+
+footer div.footer-up .footer-menus .menu ul li {
+  padding: 10px 0;
+}
+
+footer div.footer-up .footer-menus .menu ul li a {
+  color: #4d4d4d;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+footer div.footer-up .footer-menus .menu ul li a:hover {
+  text-decoration: underline;
 }
 
