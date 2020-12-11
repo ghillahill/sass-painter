@@ -47,6 +47,10 @@ nav.nav-down {
                 background-color: #fff;
                 text-decoration: none;
             }
+
+            i {
+                @include icon_primary;
+            }
         }
     }
 

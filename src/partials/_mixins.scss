@@ -25,3 +25,10 @@
         text-decoration: none;
     }
 }
+
+@mixin icon_primary {
+    vertical-align: middle;
+    font-size: 14px;
+    color: $icon_primary_color;
+    padding-right: $li_spacing;
+}
