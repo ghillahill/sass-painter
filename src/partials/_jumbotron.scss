@@ -57,8 +57,7 @@ div.jumbo-info {
 
     .price-box {
         width: 45%;
-        min-height: 440px;
-        padding: $general_spacing;
+        padding: $price-box-padding;
         background-color: black;
 
         .price-info {

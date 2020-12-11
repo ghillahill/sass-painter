@@ -153,8 +153,7 @@ div.jumbo-info .cta .cta-icon {
 
 div.jumbo-info .price-box {
   width: 45%;
-  min-height: 440px;
-  padding: 15px;
+  padding: 20px 20px 100px 20px;
   background-color: black;
 }
 
