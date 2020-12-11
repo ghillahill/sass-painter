@@ -16,6 +16,10 @@ a:hover {
   text-decoration: underline;
 }
 
+ul {
+  list-style-type: none;
+}
+
 div.container {
   height: auto;
   width: 1280px;
@@ -60,7 +64,6 @@ nav.nav-down {
 
 nav.nav-down ul {
   display: inline-block;
-  list-style-type: none;
 }
 
 nav.nav-down li {
@@ -78,6 +81,19 @@ nav.nav-down div.logo {
 
 nav.nav-down div.logo img {
   width: 80%;
+}
+
+section.jumbotron {
+  padding: 20px 0;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-repeat: no-repeat;
+}
+
+div.jumbo-info {
+  color: #fff;
+  margin-left: 33%;
 }
 
 footer div.footer-up {
@@ -98,10 +114,6 @@ footer div.footer-up .footer-menus .menu {
 
 footer div.footer-up .footer-menus .menu p {
   padding-bottom: 10px;
-}
-
-footer div.footer-up .footer-menus .menu ul {
-  list-style-type: none;
 }
 
 footer div.footer-up .footer-menus .menu ul li {

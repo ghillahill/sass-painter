@@ -26,7 +26,6 @@ nav.nav-down {
 
     ul {
         display: inline-block;
-        list-style-type: none;
     }
 
     li {
@@ -34,7 +33,7 @@ nav.nav-down {
         padding: $nav_li_spacing;
 
         a {
-            color: $font-nav-color;
+            color: $font-nav-jumbo-color;
         }
     }
 

@@ -1,0 +1,11 @@
+section.jumbotron {
+    padding: $general_spacing;
+    background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg');
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+
+div.jumbo-info {
+    color: $font-nav-jumbo-color;
+    margin-left: 33%;
+}
