@@ -177,11 +177,17 @@ div.jumbo-info .price-box .price-info .price-cta p {
 div.jumbo-info .price-box .price-info .price-cta a {
   display: inline-block;
   font-size: 15px;
-  padding: 5px 20px;
+  padding: 8px 36px;
   margin: 15px 0;
   color: #fff;
   background-color: #009cff;
   border: 1px solid #009cff;
+}
+
+div.jumbo-info .price-box .price-info .price-cta a:hover {
+  background-color: #28acff;
+  border: 1px solid #28acff;
+  text-decoration: none;
 }
 
 div.jumbo-info .price-box .offer {
