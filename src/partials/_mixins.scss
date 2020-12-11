@@ -10,3 +10,13 @@
     justify-content: $justify_content;
     align-items: $align-items;
 }
+
+@mixin button_format {
+    display: inline-block;
+    font-size: 15px;
+    padding: $button_padding;
+    margin: 15px 0;
+    color: #fff;
+    background-color: #009cff;
+    border: 1px solid #009cff;
+}

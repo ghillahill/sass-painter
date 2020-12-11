@@ -6,6 +6,13 @@
 
 body {
     font-family: "Segoe UI", sans-serif;
+    font-size: $general_font_size;
+}
+
+span {
+    display: inline-block;
+    padding: $titles-padding;
+    font-size: 29px;
 }
 
 a {
@@ -21,7 +28,6 @@ ul {
 }
 
 div.container {
-    height: auto;
     width: 1200px;
     margin: 0 auto;
 

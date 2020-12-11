@@ -6,6 +6,13 @@
 
 body {
   font-family: "Segoe UI", sans-serif;
+  font-size: 14px;
+}
+
+span {
+  display: inline-block;
+  padding: 5px 0;
+  font-size: 29px;
 }
 
 a {
@@ -21,7 +28,6 @@ ul {
 }
 
 div.container {
-  height: auto;
   width: 1200px;
   margin: 0 auto;
 }
@@ -59,11 +65,15 @@ nav.nav-up li {
 }
 
 nav.nav-down {
-  text-align: center;
+  padding-top: 15px;
+  margin-right: 200px;
 }
 
 nav.nav-down ul {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav.nav-down li {
@@ -75,12 +85,9 @@ nav.nav-down li a {
   color: #fff;
 }
 
-nav.nav-down div.logo {
+nav.nav-down img {
   display: inline-block;
-}
-
-nav.nav-down div.logo img {
-  width: 80%;
+  width: 10%;
 }
 
 section.jumbotron {
@@ -97,15 +104,17 @@ div.jumbo-info {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  height: auto;
   color: #fff;
-  margin-left: 30%;
+  margin-left: 25%;
 }
 
 div.jumbo-info h1 {
-  padding: 15px 0;
+  padding: 5px 0;
 }
 
 div.jumbo-info .menu {
+  font-size: 17px;
   padding: 20px 0;
 }
 
@@ -144,19 +153,56 @@ div.jumbo-info .cta .cta-icon {
 
 div.jumbo-info .price-box {
   width: 45%;
+  min-height: 440px;
+  padding: 15px;
   background-color: black;
 }
 
 div.jumbo-info .price-box .price-info {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding-bottom: 20px;
 }
 
 div.jumbo-info .price-box .price-info .price-cta {
   padding-right: 50px;
+}
+
+div.jumbo-info .price-box .price-info .price-cta p {
+  text-transform: uppercase;
+  color: #989898;
+}
+
+div.jumbo-info .price-box .price-info .price-cta a {
+  display: inline-block;
+  font-size: 15px;
+  padding: 5px 20px;
+  margin: 15px 0;
+  color: #fff;
+  background-color: #009cff;
+  border: 1px solid #009cff;
+}
+
+div.jumbo-info .price-box .offer {
+  padding: 15px;
+  margin: 20px 0 0 0;
+  color: #4d4d4d;
+  background-color: #fff;
+}
+
+div.jumbo-info .price-box .offer h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+div.jumbo-info .price-box .offer p {
+  padding: 5px 0;
+}
+
+div.jumbo-info .price-box .offer a {
+  color: #009cff;
 }
 
 footer div.footer-up {

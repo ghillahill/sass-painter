@@ -1,5 +1,5 @@
 section.jumbotron {
-    padding: $general_spacing;
+    padding: $top_down_spacing;
     background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg');
     object-fit: contain;
     background-repeat: no-repeat;
@@ -8,15 +8,17 @@ section.jumbotron {
 
 div.jumbo-info {
     @include flex(row, space-between, flex-start);
+    height: auto;
     color: $font-nav-jumbo-color;
-    margin-left: 30%;
+    margin-left: 25%;
 
     h1 {
         padding: $titles-padding;
     }
 
     .menu {
-        padding: $general_spacing;
+        font-size: 17px;
+        padding: $top_down_spacing;
 
         li {
             padding: $menu_li_spacing;
@@ -55,14 +57,45 @@ div.jumbo-info {
 
     .price-box {
         width: 45%;
+        min-height: 440px;
+        padding: $general_spacing;
         background-color: black;
 
         .price-info {
-            @include flex(row, space-around, center);
-            padding: 20px;
+            @include flex(row, space-between, center);
+            padding-bottom: $bottom_padding;
 
             .price-cta {
                 padding-right: 50px;
+
+                p {
+                    text-transform: uppercase;
+                    color: $font-color-secondary;
+                }
+
+                a {
+                    @include button_format;
+                }
+            }
+        }
+
+        .offer {
+            padding: $general_spacing;
+            margin: $top_margin;
+            color: $font-color-primary;
+            background-color: #fff;
+
+            h3 {
+                text-transform: uppercase;
+                font-size: 18px;
+            }
+
+            p {
+                padding: 5px 0;
+            }
+
+            a {
+                color: $link-offer-color;
             }
         }
     }

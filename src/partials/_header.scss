@@ -22,10 +22,11 @@ nav.nav-up {
 }
 
 nav.nav-down {
-    text-align: center;
+    padding-top: $general_spacing;
+    margin-right: 200px;
 
     ul {
-        display: inline-block;
+        @include flex(row, space-between, center);
     }
 
     li {
@@ -37,11 +38,8 @@ nav.nav-down {
         }
     }
 
-    div.logo {
+    img {
         display: inline-block;
-
-        img {
-            width: 80%;
-        }
+        width: 10%;
     }
 }
