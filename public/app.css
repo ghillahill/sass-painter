@@ -93,8 +93,12 @@ section.jumbotron {
 }
 
 div.jumbo-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
   color: #fff;
-  margin-left: 33%;
+  margin-left: 30%;
 }
 
 div.jumbo-info h1 {
@@ -136,6 +140,23 @@ div.jumbo-info .cta .cta-icon {
   padding-bottom: 5px;
   font-size: 25px;
   color: #fff;
+}
+
+div.jumbo-info .price-box {
+  width: 45%;
+  background-color: black;
+}
+
+div.jumbo-info .price-box .price-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+div.jumbo-info .price-box .price-info .price-cta {
+  padding-right: 50px;
 }
 
 footer div.footer-up {
