@@ -23,7 +23,6 @@ nav.nav-up {
 
 nav.nav-down {
     text-align: center;
-    color: $font-nav-color;
 
     ul {
         display: inline-block;
@@ -33,6 +32,10 @@ nav.nav-down {
     li {
         display: inline-block;
         padding: $nav_li_spacing;
+
+        a {
+            color: $font-nav-color;
+        }
     }
 
     div.logo {

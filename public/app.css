@@ -8,6 +8,14 @@ body {
   font-family: "Segoe UI", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 div.container {
   height: auto;
   width: 1280px;
@@ -48,7 +56,6 @@ nav.nav-up li {
 
 nav.nav-down {
   text-align: center;
-  color: #fff;
 }
 
 nav.nav-down ul {
@@ -59,6 +66,10 @@ nav.nav-down ul {
 nav.nav-down li {
   display: inline-block;
   padding: 10px;
+}
+
+nav.nav-down li a {
+  color: #fff;
 }
 
 nav.nav-down div.logo {
@@ -99,11 +110,6 @@ footer div.footer-up .footer-menus .menu ul li {
 
 footer div.footer-up .footer-menus .menu ul li a {
   color: #4d4d4d;
-  text-decoration: none;
   font-size: 13px;
-}
-
-footer div.footer-up .footer-menus .menu ul li a:hover {
-  text-decoration: underline;
 }
 
